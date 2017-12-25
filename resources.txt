@@ -1,0 +1,95 @@
+1. create new project 
+	
+	dotnet new web
+
+2. Install ef core and design package 
+	dotnet add new package Microsoft.EntityFrameworkCore.SqlServer
+	dotnet add new package Microsoft.EntityFrameworkCore.Design
+
+3. Add EF command line tools in csproj
+	
+	 <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+	 </ItemGroup>
+
+4. Create Model and DbContext
+
+	
+        [Key]        
+       
+		public int Id { get; set; }
+       
+		[Required]
+       
+		[StringLength(255)]
+       
+		public string Name { get; set; }
+       
+		public int Age { get; set; }
+
+  	public AppDbContext(DbContextOptions<AppDbContext> options) : base	(options)
+        	{
+
+			}        
+	public DbSet<Employee> Employees { get; set; }
+
+
+5. Add connetion string in appsetting.json 
+	"ConnectionStrings" : {
+   		 "Default" : "Server = .\\SQLexpress;Database = DotNetT;Integrated 		Security=True; "
+    	},
+
+6. Add db migration and Update Database 
+
+	dotnet ef migrations add initialMigrations 
+
+	dotnet ef database update 
+
+7. create contoller and write CRUD functions,  Views  
+
+		[HttpGet]
+        public IActionResult Index()
+        {
+            var emps = context.Employees.ToList();
+            return View(emps);
+        }
+         [HttpGet]
+        public IActionResult Create() { 
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Employee model) { 
+            if (!ModelState.IsValid) return View(model);
+            context.Add(model);
+            context.SaveChanges();
+            return RedirectToAction("index");
+        }
+        [HttpGet]
+        public IActionResult Edit(int id) { 
+            var emp = context.Employees.Find(id);
+            return View(emp);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Employee model) { 
+            if (!ModelState.IsValid) return View(model);
+            context.Employees.Update(model);
+            context.SaveChanges();
+            return RedirectToAction("index");
+        }
+        [HttpGet]
+        public IActionResult Delete(int id){ 
+           var emp = context.Employees.Find(id);
+           context.Employees.Remove(emp);
+           context.SaveChanges();
+           return RedirectToAction("index");
+        }
+
+
+
+
+
+
+
+

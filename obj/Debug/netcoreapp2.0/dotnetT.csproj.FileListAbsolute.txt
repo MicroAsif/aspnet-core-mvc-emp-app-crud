@@ -1,0 +1,11 @@
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\dotnetT.deps.json
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\dotnetT.runtimeconfig.json
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\dotnetT.runtimeconfig.dev.json
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\dotnetT.dll
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\dotnetT.pdb
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\dotnetT.csproj.CoreCompileInputs.cache
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\dotnetT.AssemblyInfoInputs.cache
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\dotnetT.AssemblyInfo.cs
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\dotnetT.dll
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\dotnetT.pdb
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\dotnetT.csprojResolveAssemblyReference.cache

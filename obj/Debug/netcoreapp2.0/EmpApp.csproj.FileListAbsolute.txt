@@ -1,0 +1,11 @@
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\EmpApp.deps.json
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\EmpApp.runtimeconfig.json
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\EmpApp.runtimeconfig.dev.json
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\EmpApp.dll
+C:\dev\dotnetT\bin\Debug\netcoreapp2.0\EmpApp.pdb
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.csprojResolveAssemblyReference.cache
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.csproj.CoreCompileInputs.cache
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.AssemblyInfoInputs.cache
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.AssemblyInfo.cs
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.dll
+C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.pdb
