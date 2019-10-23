@@ -9,3 +9,14 @@ C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.AssemblyInfoInputs.cache
 C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.AssemblyInfo.cs
 C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.dll
 C:\dev\dotnetT\obj\Debug\netcoreapp2.0\EmpApp.pdb
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\bin\Debug\netcoreapp2.0\EmpApp.deps.json
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\bin\Debug\netcoreapp2.0\EmpApp.runtimeconfig.json
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\bin\Debug\netcoreapp2.0\EmpApp.runtimeconfig.dev.json
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\bin\Debug\netcoreapp2.0\EmpApp.dll
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\bin\Debug\netcoreapp2.0\EmpApp.pdb
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\obj\Debug\netcoreapp2.0\EmpApp.csprojAssemblyReference.cache
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\obj\Debug\netcoreapp2.0\EmpApp.csproj.CoreCompileInputs.cache
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\obj\Debug\netcoreapp2.0\EmpApp.AssemblyInfoInputs.cache
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\obj\Debug\netcoreapp2.0\EmpApp.AssemblyInfo.cs
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\obj\Debug\netcoreapp2.0\EmpApp.dll
+C:\Users\microasif\source\repos\Microservice101\AspNetCoreMVC-EmpAppCRUD\obj\Debug\netcoreapp2.0\EmpApp.pdb
